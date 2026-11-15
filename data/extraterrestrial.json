@@ -1,0 +1,380 @@
+[
+  {
+    "id": "moon_shackleton_degerlache_ridge",
+    "name": "Shackleton–de Gerlache Bağlantı Sırtı",
+    "name_en": "Shackleton–de Gerlache Connecting Ridge",
+    "body": "Moon",
+    "country_or_region": "Ay Güney Kutbu",
+    "country_or_region_en": "Lunar South Pole",
+    "lat": -89.45,
+    "lng": -137.3,
+    "source_url": "https://iopscience.iop.org/article/10.3847/PSJ/aca590",
+    "source_label": "Gawronska et al. (2022), Planet. Sci. J., Artemis III EVA targets at the lunar south pole",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "lunar_polar_base",
+    "metrics": {
+      "avg_temp_c": -80.0,
+      "slope_deg": 9.5,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 85.0
+    },
+    "mineral_type": "Anortozitik Regolit (Yüksek Kalsiyum Feldispat)",
+    "mineral_type_en": "Anorthositic Regolith (Calcium-rich Feldspar)",
+    "suitable_missions": [
+      "landing_site",
+      "habitat_construction",
+      "solar_power",
+      "ice_prospecting",
+      "eva_suit",
+      "rover_test"
+    ],
+    "description": "Artemis Kalıcı Ay Üssü (Artemis Base Camp) için birincil aday sırt: Güneş'in ufukta ~1.5° açıyla dolandığı kutupta yılın %85'inden fazlasında kesintisiz güneş enerjisi sağlar ve hemen altındaki Shackleton kalıcı gölgeli su buzu tuzaklarına (ISRU) doğrudan erişim sunar.",
+    "description_en": "Primary candidate ridge for the permanent Artemis Lunar Base Camp: receives >85% continuous grazing sunlight for solar power while providing direct access to adjacent Shackleton PSR water-ice cold traps for ISRU."
+  },
+  {
+    "id": "moon_shackleton_psr",
+    "name": "Shackleton Krateri İçi (Kalıcı Gölgeli Bölge)",
+    "name_en": "Shackleton Crater Interior (Permanently Shadowed Region)",
+    "body": "Moon",
+    "country_or_region": "Ay Güney Kutbu",
+    "country_or_region_en": "Lunar South Pole",
+    "lat": -89.9,
+    "lng": 0.0,
+    "source_url": "https://ntrs.nasa.gov/api/citations/20120013758/downloads/20120013758.pdf",
+    "source_label": "NASA LOLA 5 m South Polar DEM & Diviner Thermal Studies",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "cold_polar",
+    "metrics": {
+      "avg_temp_c": -200.0,
+      "slope_deg": 8.0,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 0.0
+    },
+    "mineral_type": "Buz Katkılı Regolit (H₂O Buzu)",
+    "mineral_type_en": "Ice-bearing Regolith (H2O Ice)",
+    "suitable_missions": [
+      "ice_prospecting",
+      "isru_mining",
+      "rover_test",
+      "drilling_test"
+    ],
+    "description": "Grand Canyon'dan iki kattan fazla derinlikteki kraterin içi milyarlarca yıldır Güneş görmez. Kalıcı soğuk, su buzunu hapseder; ancak burada çalışacak donanım aşırı soğuk ve güneş enerjisizliğe dayanmalıdır.",
+    "description_en": "The interior of this crater, more than twice as deep as the Grand Canyon, has not seen sunlight for billions of years. Permanent cold traps water ice, but hardware here must survive extreme cold with no solar power."
+  },
+  {
+    "id": "moon_haworth_psr",
+    "name": "Haworth Krateri Soğuk Tuzağı (PSR)",
+    "name_en": "Haworth Crater Cold Trap (PSR)",
+    "body": "Moon",
+    "country_or_region": "Ay Güney Kutbu",
+    "country_or_region_en": "Lunar South Pole",
+    "lat": -86.9,
+    "lng": -4.0,
+    "source_url": "https://www.nasa.gov/news-release/nasa-provides-update-on-artemis-iii-moon-landing-regions/",
+    "source_label": "NASA (28 Oct 2024): Haworth is one of nine Artemis III candidate landing regions",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "cold_polar",
+    "metrics": {
+      "avg_temp_c": -233.0,
+      "slope_deg": 7.0,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 0.0
+    },
+    "mineral_type": "Kriyojenik Su Buzu & Uçucu Maddeler Tuzağı",
+    "mineral_type_en": "Cryogenic Water Ice & Volatile Trap",
+    "suitable_missions": [
+      "ice_prospecting",
+      "isru_mining",
+      "drilling_test",
+      "rover_test"
+    ],
+    "description": "Ay'ın güney kutbu yakınlarındaki en soğuk kalıcı gölgeli kraterlerden biridir (~40 K / -233°C). Su buzu için doğal bir soğuk tuzaktır. Dünya'da bu sıcaklığa ulaşılamadığı için Dünya'nın en soğuk, en kurak ve termal açıdan en kararlı kutup çölleriyle eşleştirilir.",
+    "description_en": "Permanently shadowed crater near the south pole, among the coldest places on the Moon (~40 K / -233°C): a cold trap for water ice. Matched to Earth's coldest, driest, most thermally stable polar deserts."
+  },
+  {
+    "id": "moon_cabeus",
+    "name": "Cabeus Krateri (LCROSS Çarpma Sahası)",
+    "name_en": "Cabeus Crater (LCROSS Impact Site)",
+    "body": "Moon",
+    "country_or_region": "Ay Güney Kutup Bölgesi",
+    "country_or_region_en": "Lunar South Polar Region",
+    "lat": -84.9,
+    "lng": -35.5,
+    "source_url": "https://science.nasa.gov/mission/lcross/",
+    "source_label": "NASA LCROSS Mission Impact Plume Spectroscopy (2009)",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "cold_polar",
+    "metrics": {
+      "avg_temp_c": -195.0,
+      "slope_deg": 12.0,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 0.0
+    },
+    "mineral_type": "Su Buzu ve Uçucu Maddeler Karışımlı Regolit",
+    "mineral_type_en": "Regolith with Water Ice and Other Volatiles",
+    "suitable_missions": [
+      "ice_prospecting",
+      "isru_mining",
+      "drilling_test"
+    ],
+    "description": "2009'da LCROSS'un bilinçli olarak çarptığı ve su buzu ile diğer uçucuları tespit ettiği kalıcı gölgeli bölgedir. LRO verileri, buzun kutbun dışındaki PSR'lerde de en az 77°G enlemine kadar yaygın olabileceğini gösteriyor.",
+    "description_en": "The permanently shadowed region that LCROSS deliberately impacted in 2009, detecting water ice and other volatiles. LRO data suggest ice may be widespread in PSRs at least down to 77°S latitude."
+  },
+  {
+    "id": "moon_malapert",
+    "name": "Malapert Masifi (Artemis III Adayı)",
+    "name_en": "Malapert Massif (Artemis III Candidate)",
+    "body": "Moon",
+    "country_or_region": "Ay Güney Kutbu",
+    "country_or_region_en": "Lunar South Pole",
+    "lat": -84.9,
+    "lng": 12.9,
+    "source_url": "https://www.nasa.gov/news-release/nasa-provides-update-on-artemis-iii-moon-landing-regions/",
+    "source_label": "NASA (28 Oct 2024): Malapert Massif is one of nine Artemis III candidate landing regions",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "lunar_polar_base",
+    "metrics": {
+      "avg_temp_c": -60.0,
+      "slope_deg": 11.5,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 80.0
+    },
+    "mineral_type": "Anortozitik Regolit / Güney Kutbu-Aitken Havzası Kayaçları",
+    "mineral_type_en": "Anorthositic Regolith / South Pole-Aitken Basin Material",
+    "suitable_missions": [
+      "comms_relay",
+      "solar_power",
+      "landing_site",
+      "habitat_construction",
+      "rover_test",
+      "eva_suit"
+    ],
+    "description": "Güney kutbu yakınında ~5 km yüksekliğindeki anortozitik masif; Dünya ile kesintisiz doğrudan görüş hattı (iletişim rölesi) ve %80 sürekli güneşlenmesiyle kalıcı Ay üssü enerji ve haberleşme altyapısı için kritik Artemis III hedefidir.",
+    "description_en": "5 km-high anorthositic massif near the lunar south pole with continuous direct line-of-sight to Earth for communications and 80% sunlight for permanent lunar base power."
+  },
+  {
+    "id": "moon_faustini",
+    "name": "Faustini Krateri",
+    "name_en": "Faustini Crater",
+    "body": "Moon",
+    "country_or_region": "Ay Güney Kutup Bölgesi",
+    "country_or_region_en": "Lunar South Polar Region",
+    "lat": -87.3,
+    "lng": 77.0,
+    "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JE006028",
+    "source_label": "LRO Diviner Polar Seasonal & Volatile Cold Trap Maps",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "cold_polar",
+    "metrics": {
+      "avg_temp_c": -205.0,
+      "slope_deg": 10.0,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 0.0
+    },
+    "mineral_type": "Buz Katkılı Regolit (H₂O Buzu)",
+    "mineral_type_en": "Ice-bearing Regolith (H2O Ice)",
+    "suitable_missions": [
+      "ice_prospecting",
+      "isru_mining"
+    ],
+    "description": "Daha önceki çalışmalarda su buzu belirtileri bulunan büyük kutup PSR'lerinden biridir. En yüksek buz yoğunluğunun, 75 K (-198°C) altındaki en soğuk noktalarda ve kutba bakan yamaçların eteğinde beklendiği modellenmiştir.",
+    "description_en": "One of the large polar PSRs where earlier studies found signs of water ice. Models predict the highest ice concentrations at the coldest spots below 75 K (-198°C) and near the base of poleward-facing slopes."
+  },
+  {
+    "id": "moon_marius_hills_pit",
+    "name": "Marius Tepeleri Çukuru (Lav Tüpü Girişi)",
+    "name_en": "Marius Hills Pit (Lava Tube Skylight)",
+    "body": "Moon",
+    "country_or_region": "Oceanus Procellarum, Ay",
+    "country_or_region_en": "Oceanus Procellarum, Moon",
+    "lat": 14.0917,
+    "lng": -56.7701,
+    "source_url": "https://lroc.im-ldi.com/atlases/pits/1",
+    "source_label": "LROC Lunar Pit Atlas: Marius Hills Pit, 14.09°N 303.23°E, 40 m deep, mare terrain",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "lava_tube",
+    "metrics": {
+      "avg_temp_c": 17.0,
+      "slope_deg": 5.0,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 15.0
+    },
+    "mineral_type": "Bazaltik Mare Regoliti / Lav Tüpü",
+    "mineral_type_en": "Basaltic Mare Regolith / Lava Tube",
+    "suitable_missions": [
+      "cave_exploration",
+      "radiation_shelter",
+      "habitat_construction",
+      "eva_suit"
+    ],
+    "description": "Marius Tepeleri'nde bir lav tüpüne açılan 40 m derinliğindeki çöküntü çukuru (skylight); radyasyon, mikrometeoritler ve yüzey sıcaklık uçlarına karşı doğal bir sığınaktır. Derin Ay lav tüpleri ~17°C sabit sıcaklıkta kaldığı için ılıman iklimdeki bazaltik lav tüpü bölgeleriyle eşleşir.",
+    "description_en": "A collapse pit in the Marius Hills that opens into a lava tube: a natural shelter from radiation, micrometeoroids and surface temperature extremes. Deep lunar lava tubes stay at ~17°C, matching basaltic lava-tube country in a mild, stable climate."
+  },
+  {
+    "id": "moon_hadley_rille",
+    "name": "Hadley Vadisi (Apollo 15 Sahası)",
+    "name_en": "Hadley Rille (Apollo 15 Site)",
+    "body": "Moon",
+    "country_or_region": "Mare Imbrium kenarı, Ay",
+    "country_or_region_en": "Edge of Mare Imbrium, Moon",
+    "lat": 26.1,
+    "lng": 3.65,
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_15_landing_site.html",
+    "source_label": "NASA NSSDC Apollo 15 Hadley-Apennine Landing Site",
+    "trek_url": "https://trek.nasa.gov/moon/",
+    "validation_tag": "lunar_surface",
+    "metrics": {
+      "avg_temp_c": -20.0,
+      "slope_deg": 5.0,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 100,
+      "solar_exposure_pct": 50.0
+    },
+    "mineral_type": "Bazaltik Mare Regoliti",
+    "mineral_type_en": "Basaltic Mare Regolith",
+    "suitable_missions": [
+      "eva_suit",
+      "rover_test",
+      "landing_site",
+      "volcanology"
+    ],
+    "description": "Apollo 15 astronotlarının Lunar Roving Vehicle ile çalıştığı bu bazaltik lav kanalı, Kilauea ve Craters of the Moon gibi Dünya analoglarıyla karşılaştırılarak gelecekteki mürettebatlı görev planlamasına referans olur.",
+    "description_en": "The basaltic lava channel worked by Apollo 15 astronauts with the Lunar Roving Vehicle, used as a reference when comparing Earth analogs like Kilauea and Craters of the Moon."
+  },
+  {
+    "id": "mars_jezero_crater",
+    "name": "Jezero Krateri (Perseverance Sahası)",
+    "name_en": "Jezero Crater (Perseverance Landing Site)",
+    "body": "Mars",
+    "country_or_region": "Isidis Planitia Batı Kenarı, Mars",
+    "country_or_region_en": "Western Isidis Planitia, Mars",
+    "lat": 18.44,
+    "lng": 77.45,
+    "source_url": "https://www.esa.int/ESA_Multimedia/Images/2021/02/Topographic_map_of_Jezero_crater_and_surrounds",
+    "source_label": "ESA HRSC / MOLA Topographic Map & Mars 2020 MEDA Climate Data (doi:10.1029/2024JE008385)",
+    "trek_url": "https://trek.nasa.gov/mars/",
+    "validation_tag": "mars_delta",
+    "metrics": {
+      "avg_temp_c": -52.0,
+      "slope_deg": 3.4,
+      "humidity_pct": 0.5,
+      "regolith_similarity": 95,
+      "solar_exposure_pct": 88.0
+    },
+    "mineral_type": "Karbonat (Hidromagnezit), Olivin ve Filosilikat (Kil) Delta Tortulları",
+    "mineral_type_en": "Carbonate (Hydromagnesite), Olivine & Phyllosilicate (Clay) Delta Sediments",
+    "suitable_missions": [
+      "rover_test",
+      "astrobiology",
+      "sample_analysis",
+      "landing_site",
+      "hazard_avoidance",
+      "eva_suit"
+    ],
+    "description": "Perseverance gezgininin iniş sahası: Isidis çarpma yapısının batı kenarında iki nehir deltasına sahip Noachian döneminden kalma eski bir göl havzası. Karbonat ve kil mineralleri açısından Türkiye'deki Salda Gölü ve kurak çöl havzalarıyla doğrudan karşılaştırılır.",
+    "description_en": "Perseverance rover landing site: a Noachian lake basin with two fluvial deltas on the western edge of the Isidis impact structure. Directly compared with Lake Salda (Türkiye) for carbonate mineralogy and hyper-arid deserts for climate."
+  },
+  {
+    "id": "mars_gale_crater",
+    "name": "Gale Krateri ve Sharp Dağı (Curiosity Sahası)",
+    "name_en": "Gale Crater and Mount Sharp (Curiosity Site)",
+    "body": "Mars",
+    "country_or_region": "Aeolis Mensae Sınırı, Mars",
+    "country_or_region_en": "Aeolis Mensae Boundary, Mars",
+    "lat": -5.4,
+    "lng": 137.8,
+    "source_url": "https://en.wikipedia.org/wiki/Gale_(crater)",
+    "source_label": "Curiosity REMS Climate Table (2012-2015) & MSL Gale Crater Literature",
+    "trek_url": "https://trek.nasa.gov/mars/",
+    "validation_tag": "hyper_arid",
+    "metrics": {
+      "avg_temp_c": -44.5,
+      "slope_deg": 9.0,
+      "humidity_pct": 1.0,
+      "regolith_similarity": 92,
+      "solar_exposure_pct": 86.0
+    },
+    "mineral_type": "Tabakalı Kil (Smektit) ve Sülfat Tortulları / Bazaltik Kum",
+    "mineral_type_en": "Layered Clay (Smectite) & Sulfate Sediments / Basaltic Sand",
+    "suitable_missions": [
+      "rover_test",
+      "astrobiology",
+      "sample_analysis",
+      "eva_suit",
+      "drilling_test"
+    ],
+    "description": "Curiosity gezgininin çalıştığı saha: killerden sülfatlara geçişi kaydeden, 5.5 km yüksekliğindeki tabakalı tortul tepe Sharp Dağı'na (Aeolis Mons) yükselen krater tabanı. Yüksek günlük sıcaklık farkı (~73 K) ve engebeli etekleriyle öne çıkar.",
+    "description_en": "Curiosity rover site: a crater floor rising into Mount Sharp (5.5 km), a layered sedimentary mound recording a transition from clays to sulfates, with a ~72.8 K diurnal temperature swing."
+  },
+  {
+    "id": "mars_utopia_planitia",
+    "name": "Utopia Planitia Buz Zengini Zemin (ISRU)",
+    "name_en": "Utopia Planitia Ice-Rich Ground (ISRU)",
+    "body": "Mars",
+    "country_or_region": "Kuzey Düzlükleri, Mars",
+    "country_or_region_en": "Northern Lowlands, Mars",
+    "lat": 46.7,
+    "lng": 117.5,
+    "source_url": "https://www.jpl.nasa.gov/news/mars-ice-deposit-holds-as-much-water-as-lake-superior/",
+    "source_label": "NASA JPL (22 Nov 2016): MRO SHARAD radar finds buried ice in Utopia Planitia",
+    "trek_url": "https://trek.nasa.gov/mars/",
+    "validation_tag": "permafrost",
+    "metrics": {
+      "avg_temp_c": -59.0,
+      "slope_deg": 2.5,
+      "humidity_pct": 0.5,
+      "regolith_similarity": 85,
+      "solar_exposure_pct": 60.0
+    },
+    "mineral_type": "Gömülü Su Buzu Katmanlı Permafrost Regolit",
+    "mineral_type_en": "Buried Water-Ice Permafrost Regolith",
+    "suitable_missions": [
+      "isru_mining",
+      "ice_prospecting",
+      "drilling_test",
+      "landing_site",
+      "habitat_construction"
+    ],
+    "description": "MRO SHARAD radarının Superior Gölü kadar gömülü su buzu tespit ettiği geniş kuzey düzlüğü; Yerinde Kaynak Kullanımı (ISRU) için birincil su kaynağı adayıdır. Dünya'nın soğuk, çorak ve sürekli permafrost bölgeleriyle (Devon Adası, Axel Heiberg, McMurdo) eşleşir.",
+    "description_en": "A vast northern plain where MRO SHARAD radar found buried, ice-rich ground holding as much water as Lake Superior: a premier candidate source of water for ISRU. Matched to Earth's cold, barren continuous-permafrost regime."
+  },
+  {
+    "id": "mars_pavonis_lava_tubes",
+    "name": "Pavonis Mons Lav Tüpü Çukurları (Tharsis)",
+    "name_en": "Pavonis Mons Lava Tube Skylights (Tharsis)",
+    "body": "Mars",
+    "country_or_region": "Tharsis Volkanik Platosu, Mars",
+    "country_or_region_en": "Tharsis Volcanic Plateau, Mars",
+    "lat": 0.78,
+    "lng": -112.9,
+    "source_url": "https://hirise.lpl.arizona.edu/ESP_019351_1810",
+    "source_label": "MRO HiRISE ESP_019351_1810: Lava Tube Skylight Pit on Pavonis Mons",
+    "trek_url": "https://trek.nasa.gov/mars/",
+    "validation_tag": "lava_tube",
+    "metrics": {
+      "avg_temp_c": -15.0,
+      "slope_deg": 4.5,
+      "humidity_pct": 0.0,
+      "regolith_similarity": 95,
+      "solar_exposure_pct": 75.0
+    },
+    "mineral_type": "Bazaltik Kalkan Volkanı Lav Akıntıları ve Tüpleri",
+    "mineral_type_en": "Basaltic Shield Volcano Lava Flows & Tubes",
+    "suitable_missions": [
+      "cave_exploration",
+      "radiation_shelter",
+      "habitat_construction",
+      "volcanology",
+      "astrobiology"
+    ],
+    "description": "Tharsis bölgesindeki kalkan volkanın yamaçlarında HiRISE tarafından görüntülenen devasa lav tüpü tavan çöküntüleri (skylight). Yüzey radyasyonundan korunan yeraltı yaşam alanları ve astrobiyolojik sığınak araştırmaları için kritik hedeftir.",
+    "description_en": "Giant lava tube skylight collapse pits imaged by HiRISE on the flanks of the Pavonis Mons shield volcano in Tharsis. Prime target for radiation-shielded subsurface habitats and astrobiological refugia."
+  }
+]

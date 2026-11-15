@@ -1,0 +1,222 @@
+[
+  {
+    "id": "src_nasa_power_merra2",
+    "name": "NASA POWER MERRA-2 İklimsel Veri Küpü (2001–2020)",
+    "name_en": "NASA POWER MERRA-2 Climatology (2001–2020)",
+    "type": "dataset",
+    "provider": "NASA LaRC / GMAO",
+    "url": "https://power.larc.nasa.gov/docs/services/api/temporal/climatology/",
+    "data_categories": [
+      "temperature",
+      "precipitation",
+      "humidity",
+      "solar_radiation"
+    ],
+    "feeds_metrics": [
+      "avg_temp_c",
+      "humidity_pct",
+      "solar_exposure_pct"
+    ],
+    "access": "open",
+    "read_status": "active_api_integrated",
+    "description": "NASA GMAO MERRA-2 asimilasyon modelinden türetilen 2m sıcaklık (T2M), sıcaklık farkı (T2M_RANGE), düzeltilmiş yağış (PRECTOTCORR), bağıl nem (RH2M) ve yüzey güneş radyasyonu (ALLSKY_SFC_SW_DWN) verilerini canlı sağlar.",
+    "description_en": "Provides live 2m air temperature (T2M), diurnal range (T2M_RANGE), bias-corrected precipitation (PRECTOTCORR), relative humidity (RH2M), and surface shortwave radiation (ALLSKY_SFC_SW_DWN) derived from NASA GMAO MERRA-2."
+  },
+  {
+    "id": "src_aws_terrain_tiles",
+    "name": "AWS Terrain Tiles (Terrarium Küresel DEM — SRTM/GMTED/ETOPO1)",
+    "name_en": "AWS Terrain Tiles (Terrarium Global DEM — SRTM/GMTED/ETOPO1)",
+    "type": "dataset",
+    "provider": "AWS Open Data / Mapzen",
+    "url": "https://registry.opendata.aws/terrain-tiles/",
+    "data_categories": [
+      "elevation",
+      "slope",
+      "roughness",
+      "3d_terrain"
+    ],
+    "feeds_metrics": [
+      "slope_deg"
+    ],
+    "access": "open",
+    "read_status": "active_api_integrated",
+    "description": "God's Eye 3D arazi motoru ve EVA yürüyüş rotası (Traverse) analizi için kullanılan yüksek çözünürlüklü yükseklik karoları. Piksel başına (R*256 + G + B/256) - 32768 m formülüyle gerçek rakım ve 15° rover devrilme limiti eğim haritası üretir.",
+    "description_en": "High-resolution elevation tiles powering the God's Eye 3D terrain engine and EVA Traverse route analysis. Decodes (R*256 + G + B/256) - 32768 m per pixel to compute true elevation and 15° rover rollover slope hazard maps."
+  },
+  {
+    "id": "src_glim_lithology",
+    "name": "Küresel Litolojik Harita (GLiM v1.0 — Bazaltik Kayaç Katmanı)",
+    "name_en": "Global Lithological Map (GLiM v1.0 — Basaltic Rock Layer)",
+    "type": "dataset",
+    "provider": "Hartmann & Moosdorf (2012) / PANGAEA",
+    "url": "https://doi.org/10.1594/PANGAEA.788537",
+    "data_categories": [
+      "lithology",
+      "basaltic_volcanic",
+      "regolith"
+    ],
+    "feeds_metrics": [
+      "regolith_similarity"
+    ],
+    "access": "open",
+    "read_status": "calibrated_integrated",
+    "description": "Dünya yüzeyindeki bazaltik (1.0) ve orta volkanik (0.5) kayaç sınıflarını tanımlar. Özellikle Ay'daki Marius Hills ve Mars'taki Pavonis Mons lav tüpü hedefleri ile EVA uzay giysisi mobilite test uygunluğunda kullanılır.",
+    "description_en": "Identifies basic volcanic rock (basalt = 1.0) and intermediate volcanic rock (0.5). Used to match lunar/Martian lava-tube targets and assess Artemis EVA spacesuit mobility readiness."
+  },
+  {
+    "id": "src_zenodo_modis_lst",
+    "name": "MODIS Terra Gece-Gündüz Yüzey Sıcaklığı Farkı (LST 2000–2020)",
+    "name_en": "MODIS Terra Day-Night Land Surface Temperature Swing (2000–2020)",
+    "type": "dataset",
+    "provider": "NASA LP DAAC / Zenodo",
+    "url": "https://doi.org/10.5281/zenodo.6458406",
+    "data_categories": [
+      "land_surface_temperature",
+      "diurnal_swing",
+      "thermal_stress"
+    ],
+    "feeds_metrics": [
+      "avg_temp_c"
+    ],
+    "access": "open",
+    "read_status": "calibrated_integrated",
+    "description": "20 yıllık MODIS Terra gündüz-gece yüzey sıcaklığı farkını (K) içerir. Uzay giysisi ve yüzey donanımlarının maruz kalacağı termal döngü stresini (≥15 K eşiği) doğrulamak için kullanılır.",
+    "description_en": "20-year mean MODIS Terra daytime minus nighttime land-surface temperature (K). Used to validate thermal cycling stress (≥15 K threshold) on spacesuits and surface hardware."
+  },
+  {
+    "id": "src_nasa_gibs_ndvi",
+    "name": "NASA GIBS MODIS Terra NDVI & Kar/Buz Örtüsü",
+    "name_en": "NASA GIBS MODIS Terra NDVI & Snow/Ice Cover",
+    "type": "dataset",
+    "provider": "NASA EOSDIS GIBS",
+    "url": "https://nasa-gibs.github.io/gibs-api-docs/",
+    "data_categories": [
+      "vegetation",
+      "ndvi",
+      "cryosphere",
+      "satellite_imagery"
+    ],
+    "feeds_metrics": [
+      "regolith_similarity",
+      "solar_exposure_pct"
+    ],
+    "access": "open",
+    "read_status": "calibrated_integrated",
+    "description": "MODIS_Terra_L3_NDVI_Monthly verisiyle bitki örtüsüz/çorak (NDVI ≤ 0.1–0.2) regolit benzeri zeminleri filtreler; yoğun bitki örtüsüne sahip hücreleri geometrik ortalama veto mekanizmasıyla eler.",
+    "description_en": "Filters barren, regolith-like ground (NDVI ≤ 0.1–0.2) using MODIS_Terra_L3_NDVI_Monthly and vetoes densely vegetated cells via weighted geometric mean scoring."
+  },
+  {
+    "id": "src_lro_lola_diviner",
+    "name": "NASA LRO LOLA (PGDA Product 78) & Diviner Ay Kutup Haritaları",
+    "name_en": "NASA LRO LOLA (PGDA Product 78) & Diviner Lunar Polar Maps",
+    "type": "dataset",
+    "provider": "NASA GSFC PGDA / LROC",
+    "url": "https://pgda.gsfc.nasa.gov/products/78",
+    "data_categories": [
+      "lunar_topography",
+      "psr_temperature",
+      "lava_tube_pits"
+    ],
+    "feeds_metrics": [
+      "slope_deg",
+      "avg_temp_c",
+      "solar_exposure_pct"
+    ],
+    "access": "open",
+    "read_status": "calibrated_integrated",
+    "description": "Ay Güney Kutbu (Shackleton, Malapert, Haworth, Cabeus, Faustini) 5 m çözünürlüklü lazer altimetre eğim profilleri ve Diviner 40 K kalıcı gölgeli bölge (PSR) sıcaklık referanslarını sağlar.",
+    "description_en": "Provides 5 m laser altimeter slope profiles and Diviner 40 K permanently shadowed region (PSR) thermal ground truth for Lunar South Pole Artemis III candidate regions."
+  },
+  {
+    "id": "src_mro_sharad_hirise",
+    "name": "NASA MRO SHARAD Yeraltı Radarı & HiRISE / MEDA Mars Verileri",
+    "name_en": "NASA MRO SHARAD Subsurface Radar & HiRISE / MEDA Mars Data",
+    "type": "dataset",
+    "provider": "NASA JPL /PDS",
+    "url": "https://mars.nasa.gov/mro/",
+    "data_categories": [
+      "subsurface_ice",
+      "mars_topography",
+      "mars_climate"
+    ],
+    "feeds_metrics": [
+      "avg_temp_c",
+      "slope_deg",
+      "humidity_pct"
+    ],
+    "access": "open",
+    "read_status": "calibrated_integrated",
+    "description": "Jezero Krateri (MEDA), Gale Krateri (REMS), Utopia Planitia yeraltı buzu (SHARAD) ve Pavonis Mons lav tüpü (HiRISE) hedef profillerinin gezegensel yer-gerçeği (ground-truth) referanslarını oluşturur.",
+    "description_en": "Supplies planetary ground-truth profiles for Jezero Crater (MEDA), Gale Crater (REMS), Utopia Planitia buried ice (SHARAD), and Pavonis Mons lava tubes (HiRISE)."
+  },
+  {
+    "id": "src_nasa_earthdata_search",
+    "name": "NASA Earthdata Arama",
+    "name_en": "NASA Earthdata Search",
+    "type": "portal",
+    "provider": "NASA",
+    "url": "https://search.earthdata.nasa.gov/",
+    "data_categories": [
+      "atmosphere",
+      "land",
+      "ocean",
+      "cryosphere",
+      "elevation"
+    ],
+    "feeds_metrics": [
+      "avg_temp_c",
+      "humidity_pct",
+      "solar_exposure_pct",
+      "slope_deg"
+    ],
+    "access": "free_account_for_download",
+    "read_status": "not_read_interactive_app",
+    "description": "NASA'nın Dünya gözlem arşivlerini tek yerden aramaya yarayan katalog. Saha bazlı sıcaklık, nem ve yükseklik (eğim türetmek için) verisi bulmakta kullanılır.",
+    "description_en": "A single catalog for searching NASA's Earth observation archives. Useful for finding per-site temperature, humidity and elevation data."
+  },
+  {
+    "id": "src_nasa_worldview",
+    "name": "NASA Worldview & Trek Portalları (Moon Trek / Mars Trek)",
+    "name_en": "NASA Worldview & Solar System Treks (Moon Trek / Mars Trek)",
+    "type": "portal",
+    "provider": "NASA JPL / EOSDIS",
+    "url": "https://trek.nasa.gov/",
+    "data_categories": [
+      "satellite_imagery",
+      "land_surface_temperature",
+      "planetary_gis"
+    ],
+    "feeds_metrics": [
+      "solar_exposure_pct",
+      "avg_temp_c",
+      "slope_deg"
+    ],
+    "access": "free",
+    "read_status": "active_api_integrated",
+    "description": "Dünya, Ay (Moon Trek) ve Mars (Mars Trek) yüzey katmanlarını interaktif doğrulamak için kullanılan resmi NASA GIS portalları.",
+    "description_en": "Official NASA GIS portals used for interactive verification of Earth, Moon (Moon Trek), and Mars (Mars Trek) surface layers."
+  },
+  {
+    "id": "src_copernicus_dataspace",
+    "name": "Copernicus & EOx Sentinel-2 Cloudless Uydu Katmanı",
+    "name_en": "Copernicus & EOx Sentinel-2 Cloudless Imagery Layer",
+    "type": "portal",
+    "provider": "ESA / European Commission / EOx",
+    "url": "https://dataspace.copernicus.eu/",
+    "data_categories": [
+      "sentinel_imagery",
+      "sar_radar",
+      "elevation",
+      "land_surface_temperature"
+    ],
+    "feeds_metrics": [
+      "slope_deg",
+      "avg_temp_c",
+      "regolith_similarity"
+    ],
+    "access": "open",
+    "read_status": "active_api_integrated",
+    "description": "Sentinel-2 optik görüntülerine ve Copernicus yükseklik verisine erişim sağlar. God's Eye 3D arazi görünümünde yüzey dokusu olarak kullanılır.",
+    "description_en": "Provides Sentinel-2 optical imagery and Copernicus elevation data, used as surface drape imagery in the God's Eye 3D terrain view."
+  }
+]

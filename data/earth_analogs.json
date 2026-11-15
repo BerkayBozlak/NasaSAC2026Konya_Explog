@@ -1,0 +1,734 @@
+[
+  {
+    "id": "earth_atacama",
+    "name": "Atacama Çölü (Yungay Sahası)",
+    "name_en": "Atacama Desert (Yungay Site)",
+    "body": "Earth",
+    "country_or_region": "Antofagasta, Şili",
+    "country_or_region_en": "Antofagasta, Chile",
+    "lat": -24.08,
+    "lng": -69.91,
+    "source_url": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "tags": ["hyper_arid", "mars_catalog"],
+    "metrics": {
+      "avg_temp_c": 16.5,
+      "slope_deg": 6.0,
+      "humidity_pct": 4.5,
+      "regolith_similarity": 91,
+      "solar_exposure_pct": 92.0
+    },
+    "mineral_type": "Demir Oksit / Nitrat & Sülfat Kabuğu",
+    "mineral_type_en": "Iron Oxide / Nitrate & Sulfate Crust",
+    "suitable_missions": [
+      "rover_test",
+      "eva_suit",
+      "isru_mining",
+      "astrobiology",
+      "drilling_test"
+    ],
+    "description": "Dünya'nın kutup dışı en kurak bölgesidir. Aşırı düşük nemi, yüksek UV radyasyonu ve oksitleyici sülfat/demir oksit toprağıyla Mars yüzeyi ve astrobiyoloji testlerinin başlıca referansıdır.",
+    "description_en": "Earth's driest non-polar region. With ultra-low humidity, high UV radiation, and oxidizing sulfate/iron-oxide soils, it serves as the premier reference for Mars surface and astrobiology testing."
+  },
+  {
+    "id": "earth_devon_haughton",
+    "name": "Devon Adası (Haughton Krateri)",
+    "name_en": "Devon Island (Haughton Crater)",
+    "body": "Earth",
+    "country_or_region": "Nunavut, Kanada",
+    "country_or_region_en": "Nunavut, Canada",
+    "lat": 75.37,
+    "lng": -89.68,
+    "source_url": "https://en.wikipedia.org/wiki/Haughton_impact_crater",
+    "tags": ["cold_polar", "permafrost", "mars_catalog"],
+    "metrics": {
+      "avg_temp_c": -16.0,
+      "slope_deg": 8.0,
+      "humidity_pct": 65.0,
+      "regolith_similarity": 55,
+      "solar_exposure_pct": 50.0
+    },
+    "mineral_type": "Çarpma Breşi / Karbonat ve Jips Permafrost",
+    "mineral_type_en": "Impact Breccia / Carbonate & Gypsum Permafrost",
+    "suitable_missions": [
+      "rover_test",
+      "eva_suit",
+      "habitat_construction",
+      "ice_prospecting",
+      "drilling_test"
+    ],
+    "description": "Dünya'nın en büyük ıssız adasındaki Haughton meteorit çarpma kraterinde, Haughton Mars Projesi yürütülür. Engebeli arazi, dondurucu soğuk ve izolasyon, Mars ve Ay'daki EVA'ları ve keşif stratejilerini denemek için kullanılır.",
+    "description_en": "Home of the Haughton Mars Project at a meteorite impact crater on the world's largest uninhabited island. Barren terrain, freezing cold and isolation are used to practice Mars and Moon EVAs and test exploration strategies."
+  },
+  {
+    "id": "earth_sf_volcanic_field",
+    "name": "San Francisco Volkanik Alanı (SP Krateri / Black Point)",
+    "name_en": "San Francisco Volcanic Field (SP Crater / Black Point)",
+    "body": "Earth",
+    "country_or_region": "Arizona, ABD",
+    "country_or_region_en": "Arizona, USA",
+    "lat": 35.58,
+    "lng": -111.63,
+    "source_url": "https://en.wikipedia.org/wiki/San_Francisco_volcanic_field",
+    "tags": ["lunar_surface", "volcanic"],
+    "metrics": {
+      "avg_temp_c": 10.0,
+      "slope_deg": 10.0,
+      "humidity_pct": 35.0,
+      "regolith_similarity": 80,
+      "solar_exposure_pct": 85.0
+    },
+    "mineral_type": "Bazaltik Lav ve Küllü Volkanik Tüf",
+    "mineral_type_en": "Basaltic Lava & Volcanic Cinder",
+    "suitable_missions": [
+      "rover_test",
+      "eva_suit",
+      "isru_mining"
+    ],
+    "description": "NASA'nın Desert RATS 2008 sahası olan Black Point Lav Akışı, Lunar Electric Rover gibi araçların Ay/Mars benzeri bazaltik arazide sınandığı bir analog sahadır.",
+    "description_en": "Black Point Lava Flow was NASA's 2008 Desert RATS site, where vehicles like the Lunar Electric Rover were tested on Moon/Mars-like basaltic terrain."
+  },
+  {
+    "id": "earth_mauna_kea",
+    "name": "Mauna Kea Eyeri (PISCES Analog Sahası)",
+    "name_en": "Mauna Kea Saddle (PISCES Analog Site)",
+    "body": "Earth",
+    "country_or_region": "Hawai'i, ABD",
+    "country_or_region_en": "Hawai'i, USA",
+    "lat": 19.76,
+    "lng": -155.47,
+    "source_url": "https://en.wikipedia.org/wiki/Mauna_Kea",
+    "tags": ["lunar_surface", "volcanic"],
+    "metrics": {
+      "avg_temp_c": 6.0,
+      "slope_deg": 10.0,
+      "humidity_pct": 30.0,
+      "regolith_similarity": 88,
+      "solar_exposure_pct": 75.0
+    },
+    "mineral_type": "Bazaltik Tefra / Palagonitik Volkanik Cam",
+    "mineral_type_en": "Basaltic Tephra / Palagonitic Volcanic Glass",
+    "suitable_missions": [
+      "isru_mining",
+      "rover_test",
+      "habitat_construction"
+    ],
+    "description": "Hawai'i volkanik tefrası Ay ve Mars regolitine benzerliği nedeniyle yaygın bir simülant kaynağıdır. Bölge, ISRU, regolit işleme ve yüzey operasyonu denemelerine uygundur.",
+    "description_en": "Hawaiian volcanic tephra is a widely used regolith simulant source because of its similarity to Moon and Mars soils. The area suits ISRU, regolith processing and surface-operations trials."
+  },
+  {
+    "id": "earth_askja_iceland",
+    "name": "Askja Kalderası (Apollo Eğitim Sahası)",
+    "name_en": "Askja Caldera (Apollo Training Site)",
+    "body": "Earth",
+    "country_or_region": "Yüksek Platolar, İzlanda",
+    "country_or_region_en": "Highlands, Iceland",
+    "lat": 65.03,
+    "lng": -16.75,
+    "source_url": "https://en.wikipedia.org/wiki/Askja",
+    "tags": ["lunar_surface", "volcanic"],
+    "metrics": {
+      "avg_temp_c": 0.0,
+      "slope_deg": 12.0,
+      "humidity_pct": 80.0,
+      "regolith_similarity": 70,
+      "solar_exposure_pct": 45.0
+    },
+    "mineral_type": "Bazaltik Tefra / Volkanik Kül",
+    "mineral_type_en": "Basaltic Tephra / Volcanic Ash",
+    "suitable_missions": [
+      "eva_suit",
+      "rover_test"
+    ],
+    "description": "Apollo astronotları 1960'larda İzlanda'da jeoloji eğitimi aldı. Askja'nın volkanik, kraterli ve kayalık arazisi hâlâ EVA ve jeolojik örnekleme provaları için kullanılan bir Ay analogudur.",
+    "description_en": "Apollo astronauts trained in Iceland in the 1960s. Askja's volcanic, cratered and rocky terrain remains a lunar analog for EVA and geologic sampling rehearsals."
+  },
+  {
+    "id": "earth_mcmurdo_dry_valleys",
+    "name": "McMurdo Kuru Vadileri",
+    "name_en": "McMurdo Dry Valleys",
+    "body": "Earth",
+    "country_or_region": "Antarktika",
+    "country_or_region_en": "Antarctica",
+    "lat": -77.5,
+    "lng": 162.5,
+    "source_url": "https://en.wikipedia.org/wiki/McMurdo_Dry_Valleys",
+    "tags": ["cold_polar", "permafrost"],
+    "metrics": {
+      "avg_temp_c": -20.0,
+      "slope_deg": 9.0,
+      "humidity_pct": 50.0,
+      "regolith_similarity": 60,
+      "solar_exposure_pct": 55.0
+    },
+    "mineral_type": "Dolerit / Tuzlu Permafrost Toprağı",
+    "mineral_type_en": "Dolerite / Saline Permafrost Soil",
+    "suitable_missions": [
+      "eva_suit",
+      "habitat_construction",
+      "rover_test",
+      "ice_prospecting",
+      "drilling_test"
+    ],
+    "description": "Antarktika, izolasyon ve düşmanca koşulların uzun süreli görevlerde insan davranışına etkisini sınamak için kullanılır. Kuru Vadiler ise soğuk, kurak Mars ve Ay kutup benzeri yüzeyiyle sondaj ve astrobiyoloji çalışmalarına uygundur.",
+    "description_en": "Antarctica is used to test how isolation and hostile conditions affect people on long-duration missions. The Dry Valleys also offer a cold, arid Mars and lunar polar analog surface suited to drilling and astrobiology work."
+  },
+  {
+    "id": "earth_medicine_lake_lava_caves",
+    "name": "Lava Beds / Medicine Lake Lav Mağaraları",
+    "name_en": "Lava Beds / Medicine Lake Lava Caves",
+    "body": "Earth",
+    "country_or_region": "Kaliforniya, ABD",
+    "country_or_region_en": "California, USA",
+    "lat": 41.71,
+    "lng": -121.51,
+    "source_url": "https://en.wikipedia.org/wiki/Lava_Beds_National_Monument",
+    "tags": ["lava_tube", "volcanic"],
+    "metrics": {
+      "avg_temp_c": 8.0,
+      "slope_deg": 10.0,
+      "humidity_pct": 45.0,
+      "regolith_similarity": 75,
+      "solar_exposure_pct": 70.0
+    },
+    "mineral_type": "Bazaltik Lav Tüpü / Volkanik Cam",
+    "mineral_type_en": "Basaltic Lava Tube / Volcanic Glass",
+    "suitable_missions": [
+      "cave_exploration",
+      "radiation_shelter",
+      "habitat_construction"
+    ],
+    "description": "27'si işaretli girişe sahip çok sayıda bazaltik lav tüpü barındıran volkanik alan. Doğal lav mağaraları Ay'daki Marius Hills ve Mars'taki Pavonis Mons çukurları gibi radyasyon sığınaklarını modellemek için kullanılır.",
+    "description_en": "Volcanic field with numerous basaltic lava tubes, 27 with marked entrances. Natural lava caves model radiation-shielded habitats on the Moon and Mars."
+  },
+  {
+    "id": "earth_kilauea",
+    "name": "Kilauea Yanardağı (Hawai'i)",
+    "name_en": "Kilauea Volcano (Hawai'i)",
+    "body": "Earth",
+    "country_or_region": "Hawai'i, ABD",
+    "country_or_region_en": "Hawai'i, USA",
+    "lat": 19.42,
+    "lng": -155.29,
+    "source_url": "https://en.wikipedia.org/wiki/K%C4%ABlauea",
+    "tags": ["lunar_surface", "volcanic", "lava_tube"],
+    "metrics": {
+      "avg_temp_c": 20.0,
+      "slope_deg": 12.0,
+      "humidity_pct": 75.0,
+      "regolith_similarity": 85,
+      "solar_exposure_pct": 60.0
+    },
+    "mineral_type": "Bazalt / Lav Tüpleri",
+    "mineral_type_en": "Basalt / Lava Tubes",
+    "suitable_missions": [
+      "eva_suit",
+      "rover_test",
+      "cave_exploration"
+    ],
+    "description": "Araştırmacılar Kilauea yamaçlarında hava kameraları ve el aletleriyle küçük bir jeolog/astronot ekibinin Ay benzeri volkanik arazide görevleri ne kadar sürede tamamlayabileceğini ölçer. Lav tüpleri ayrıca eski Mars'ta yaşam sığınakları için model oluşturur.",
+    "description_en": "Researchers use aerial cameras and hand-held instruments on Kilauea's slopes to measure how long a small team of geologists and astronauts needs for tasks in a Moon-like volcanic setting. Its lava tubes also model possible life shelters on ancient Mars."
+  },
+  {
+    "id": "earth_lake_salda",
+    "name": "Salda Gölü",
+    "name_en": "Lake Salda",
+    "body": "Earth",
+    "country_or_region": "Burdur, Türkiye",
+    "country_or_region_en": "Burdur, Türkiye",
+    "lat": 37.55,
+    "lng": 29.68,
+    "source_url": "https://en.wikipedia.org/wiki/Lake_Salda",
+    "tags": ["mars_catalog", "astrobiology"],
+    "metrics": {
+      "avg_temp_c": 13.0,
+      "slope_deg": 4.0,
+      "humidity_pct": 55.0,
+      "regolith_similarity": 45,
+      "solar_exposure_pct": 78.0
+    },
+    "mineral_type": "Magnezyum Karbonat (Hidromagnezit) Tortulları",
+    "mineral_type_en": "Magnesium Carbonate (Hydromagnesite) Sediments",
+    "suitable_missions": [
+      "astrobiology",
+      "sample_analysis",
+      "rover_test"
+    ],
+    "description": "Gölün kıyısındaki açık renkli hidromagnezit stromatolit tortulları, mikrobiyal yaşam izlerini korur. Perseverance gezgininin yaşam izi aradığı Mars'taki Jezero Krateri ile Dünya üzerindeki en yakın mineralojik benzerliği paylaşır.",
+    "description_en": "The light-colored hydromagnesite stromatolite sediments on the lake's shoreline preserve microbial biosignatures, sharing the closest mineralogical similarity on Earth with Jezero Crater on Mars."
+  },
+  {
+    "id": "earth_meteor_crater",
+    "name": "Meteor Krateri (Barringer Krateri, Arizona)",
+    "name_en": "Meteor Crater (Barringer Crater, Arizona)",
+    "body": "Earth",
+    "country_or_region": "Arizona, ABD",
+    "country_or_region_en": "Arizona, USA",
+    "lat": 35.0281,
+    "lng": -111.0233,
+    "source_url": "https://en.wikipedia.org/wiki/Meteor_Crater",
+    "tags": ["lunar_surface", "impact_crater"],
+    "metrics": {
+      "avg_temp_c": 12.5,
+      "slope_deg": 11.0,
+      "humidity_pct": 28.0,
+      "regolith_similarity": 88,
+      "solar_exposure_pct": 88.0
+    },
+    "mineral_type": "Çarpma Breşi / Şoklanmış Kuvars ve Bazaltik Kumtaşı",
+    "mineral_type_en": "Impact Breccia / Shocked Quartz & Basaltic Sandstone",
+    "suitable_missions": [
+      "eva_suit",
+      "rover_test",
+      "sample_analysis",
+      "landing_site"
+    ],
+    "description": "Apollo astronotlarının krater jeolojisi ve EVA eğitimi aldığı kurak çarpma krateri. Dik krater duvarları, ejekta örtüsü ve düşük nemiyle Ay kraterlerinin birincil fiziksel analogudur.",
+    "description_en": "Arid impact crater used for Apollo astronaut training. Steep crater walls, ejecta blanket and low humidity make it a primary physical analog for lunar craters."
+  },
+  {
+    "id": "earth_craters_of_the_moon",
+    "name": "Craters of the Moon (Idaho Lav Alanı)",
+    "name_en": "Craters of the Moon (Idaho Lava Field)",
+    "body": "Earth",
+    "country_or_region": "Idaho, ABD",
+    "country_or_region_en": "Idaho, USA",
+    "lat": 43.4617,
+    "lng": -113.5627,
+    "source_url": "https://en.wikipedia.org/wiki/Craters_of_the_Moon_National_Monument_and_Preserve",
+    "tags": ["lava_tube", "lunar_surface"],
+    "metrics": {
+      "avg_temp_c": 6.5,
+      "slope_deg": 6.0,
+      "humidity_pct": 38.0,
+      "regolith_similarity": 89,
+      "solar_exposure_pct": 78.0
+    },
+    "mineral_type": "Bazaltik Pāhoehoe & ʻAʻā Lav Akıntıları / Lav Tüpleri",
+    "mineral_type_en": "Basaltic Pāhoehoe & ʻAʻā Lava Flows / Lava Tubes",
+    "suitable_missions": [
+      "cave_exploration",
+      "radiation_shelter",
+      "eva_suit",
+      "rover_test",
+      "volcanology"
+    ],
+    "description": "Apollo astronotlarının jeoloji eğitimi aldığı ve NASA'nın bazaltik lav tüpü araştırmalarını yürüttüğü volkanik saha (Marius Hills Lav Tüpü birincil adayı).",
+    "description_en": "Basalt lava field and lava-tube system used for Apollo astronaut geology training and NASA analog fieldwork (primary candidate for the Marius Hills lava-tube target)."
+  },
+  {
+    "id": "earth_mdrs_utah",
+    "name": "Mars Çöl Araştırma İstasyonu (MDRS, Utah)",
+    "name_en": "Mars Desert Research Station (MDRS, Utah)",
+    "body": "Earth",
+    "country_or_region": "Hanksville, Utah, ABD",
+    "country_or_region_en": "Hanksville, Utah, USA",
+    "lat": 38.4065,
+    "lng": -110.7919,
+    "source_url": "https://en.wikipedia.org/wiki/Mars_Desert_Research_Station",
+    "tags": ["mars_catalog", "hyper_arid"],
+    "metrics": {
+      "avg_temp_c": 12.0,
+      "slope_deg": 5.5,
+      "humidity_pct": 26.0,
+      "regolith_similarity": 84,
+      "solar_exposure_pct": 86.0
+    },
+    "mineral_type": "Demir Oksitli Jura Dönemi Kil ve Kumtaşı (Morrison Formasyonu)",
+    "mineral_type_en": "Iron-Oxide Jurassic Clay & Sandstone (Morrison Formation)",
+    "suitable_missions": [
+      "habitat_construction",
+      "eva_suit",
+      "rover_test",
+      "astrobiology",
+      "sample_analysis"
+    ],
+    "description": "Mars Society tarafından işletilen tam ölçekli simülasyon habitatı. Kızıl demir oksitli kil tepeleri ve kurak Morrison Formasyonu jeolojisiyle Mars yüzey operasyonları provaları için kullanılır.",
+    "description_en": "Full-scale simulated Mars habitat operated by the Mars Society. Red iron-oxide clay hills and arid Morrison Formation geology support Mars surface operations rehearsals."
+  },
+  {
+    "id": "earth_axel_heiberg",
+    "name": "Axel Heiberg Adası (Kutup Permafrost Sahası)",
+    "name_en": "Axel Heiberg Island (Polar Permafrost Site)",
+    "body": "Earth",
+    "country_or_region": "Nunavut, Kanada",
+    "country_or_region_en": "Nunavut, Canada",
+    "lat": 79.75,
+    "lng": -91.0,
+    "source_url": "https://en.wikipedia.org/wiki/Axel_Heiberg_Island",
+    "tags": ["cold_polar", "permafrost"],
+    "metrics": {
+      "avg_temp_c": -19.5,
+      "slope_deg": 7.5,
+      "humidity_pct": 58.0,
+      "regolith_similarity": 68,
+      "solar_exposure_pct": 48.0
+    },
+    "mineral_type": "Sürekli Permafrost / Soğuk Tuzlu Kaynaklar ve Jips",
+    "mineral_type_en": "Continuous Permafrost / Cold Saline Springs & Gypsum",
+    "suitable_missions": [
+      "ice_prospecting",
+      "drilling_test",
+      "isru_mining",
+      "astrobiology"
+    ],
+    "description": "Kutup kriyo-ortamları, sürekli permafrost ve yeraltı buzu sondaj testleri için kullanılan yüksek Arktik Mars ve Ay kutup analogu (Utopia Planitia & Haworth doğrulama sahası).",
+    "description_en": "High-Arctic Mars and lunar polar analogue for cryo-environments, continuous permafrost, and subsurface ice drilling field tests (Utopia Planitia & Haworth validation site)."
+  },
+  {
+    "id": "earth_vidgelmir_iceland",
+    "name": "Víðgelmir Lav Tüpü Çukuru (İzlanda)",
+    "name_en": "Víðgelmir Lava Tube Skylight (Iceland)",
+    "body": "Earth",
+    "country_or_region": "Hallmundarhraun, İzlanda",
+    "country_or_region_en": "Hallmundarhraun, Iceland",
+    "lat": 64.7503,
+    "lng": -20.8017,
+    "source_url": "https://en.wikipedia.org/wiki/V%C3%AD%C3%B0gelmir",
+    "tags": ["lava_tube", "volcanic"],
+    "metrics": {
+      "avg_temp_c": 2.5,
+      "slope_deg": 4.5,
+      "humidity_pct": 72.0,
+      "regolith_similarity": 86,
+      "solar_exposure_pct": 45.0
+    },
+    "mineral_type": "Bazaltik Lav Tüpü ve Çökmüş Tavan Girişi (Skylight)",
+    "mineral_type_en": "Basaltic Lava Tube & Collapsed Skylight Entrance",
+    "suitable_missions": [
+      "cave_exploration",
+      "radiation_shelter",
+      "habitat_construction"
+    ],
+    "description": "Hallmundarhraun lav alanında çökmüş tavanı tıpkı Ay ve Mars'taki skylight çukurları gibi doğal giriş oluşturan dev bazaltik lav tüpü.",
+    "description_en": "Giant basaltic lava tube in the Hallmundarhraun lava field whose collapsed roof forms skylight-like entrances matching lunar and Martian pits."
+  },
+  {
+    "id": "earth_undara_australia",
+    "name": "Undara Volkanik Lav Tüpleri (Avustralya)",
+    "name_en": "Undara Volcanic Lava Tubes (Australia)",
+    "body": "Earth",
+    "country_or_region": "Queensland, Avustralya",
+    "country_or_region_en": "Queensland, Australia",
+    "lat": -18.2011,
+    "lng": 144.5961,
+    "source_url": "https://en.wikipedia.org/wiki/Undara_Volcanic_National_Park",
+    "tags": ["lava_tube", "volcanic"],
+    "metrics": {
+      "avg_temp_c": 21.5,
+      "slope_deg": 3.5,
+      "humidity_pct": 42.0,
+      "regolith_similarity": 84,
+      "solar_exposure_pct": 85.0
+    },
+    "mineral_type": "Bazaltik Lav Tüpü ve Çöküntü Çukurları",
+    "mineral_type_en": "Basaltic Lava Tube & Collapse Depressions",
+    "suitable_missions": [
+      "cave_exploration",
+      "radiation_shelter",
+      "habitat_construction",
+      "rover_test"
+    ],
+    "description": "Avustralya'nın en uzun bazaltik lav tüpü sistemini koruyan kurak volkanik saha; tavan çöküntüleri Ay'daki Marius Hills çukuruyla yüksek yapısal uyum gösterir.",
+    "description_en": "Protects Australia's longest basaltic lava tube system in a dry climate, with roof collapse sections closely analogous to the Marius Hills pit on the Moon."
+  },
+  {
+    "id": "earth_pilot_valley_utah",
+    "name": "Pilot Vadisi (Utah)",
+    "name_en": "Pilot Valley (Utah)",
+    "body": "Earth",
+    "country_or_region": "Utah, ABD",
+    "country_or_region_en": "Utah, USA",
+    "lat": 40.95,
+    "lng": -114.05,
+    "source_url": "https://en.wikipedia.org/wiki/Pilot_Valley",
+    "tags": ["hyper_arid"],
+    "metrics": {
+      "avg_temp_c": 11.0,
+      "slope_deg": 1.0,
+      "humidity_pct": 35.0,
+      "regolith_similarity": 40,
+      "solar_exposure_pct": 90.0
+    },
+    "mineral_type": "Evaporit Tuzları / Playa Salamuraları",
+    "mineral_type_en": "Evaporite Salts / Playa Brines",
+    "suitable_missions": [
+      "astrobiology",
+      "sample_analysis"
+    ],
+    "description": "Güneş sistemi boyunca bulunan salamura ve tuzlar yaşanabilirlikte büyük rol oynayabilir. Perklorat gibi tuzlar Mars'ta gözlemlenmiştir ve Dünya'da bazı mikroorganizmalar bunları enerji kaynağı olarak kullanır.",
+    "description_en": "Brines and salts found throughout the solar system may play a big role in habitability. Salts like perchlorate have been observed on Mars, and on Earth some microbes use them as an energy source."
+  },
+  {
+    "id": "earth_gulkana_glacier",
+    "name": "Gulkana Buzulu",
+    "name_en": "Gulkana Glacier",
+    "body": "Earth",
+    "country_or_region": "Alaska, ABD",
+    "country_or_region_en": "Alaska, USA",
+    "lat": 63.28,
+    "lng": -145.42,
+    "source_url": "https://en.wikipedia.org/wiki/Gulkana_Glacier",
+    "tags": ["cold_polar"],
+    "metrics": {
+      "avg_temp_c": -3.0,
+      "slope_deg": 15.0,
+      "humidity_pct": 80.0,
+      "regolith_similarity": 10,
+      "solar_exposure_pct": 40.0
+    },
+    "mineral_type": "Kirli Buz / Kayaçlı Buzul",
+    "mineral_type_en": "Dirty Rocky Ice / Glacial Ice",
+    "suitable_missions": [
+      "seismic_monitoring",
+      "drilling_test"
+    ],
+    "description": "Gulkana Buzulu ile Satürn'ün uydusu Enceladus, kirli ve kayaçlı kalın bir buz tabakasının altında saklanan sıvı suyu paylaşır. Buradaki buz depremi deneyleri, gelecekte Enceladus ölçümlerinin temelini oluşturur.",
+    "description_en": "Gulkana Glacier and Saturn's moon Enceladus share liquid water hidden beneath a thick layer of dirty, rocky ice. Icequake experiments here lay the groundwork for future measurements on Enceladus."
+  },
+  {
+    "id": "earth_verde_valley",
+    "name": "Verde Vadisi (Arizona)",
+    "name_en": "Verde Valley (Arizona)",
+    "body": "Earth",
+    "country_or_region": "Arizona, ABD",
+    "country_or_region_en": "Arizona, USA",
+    "lat": 34.77,
+    "lng": -112.05,
+    "source_url": "https://en.wikipedia.org/wiki/Verde_Valley",
+    "tags": [],
+    "metrics": {
+      "avg_temp_c": 17.0,
+      "slope_deg": 5.0,
+      "humidity_pct": 30.0,
+      "regolith_similarity": 50,
+      "solar_exposure_pct": 85.0
+    },
+    "mineral_type": "Tuzlu Eski Göl Yatağı Tortulları",
+    "mineral_type_en": "Saline Paleolake Sediments",
+    "suitable_missions": [
+      "astrobiology",
+      "sample_analysis"
+    ],
+    "description": "Bilim insanları saha ve laboratuvar çalışmalarıyla yaşam izlerinin (biyoimza) zaman içinde nasıl korunduğunu araştırır. Bu çalışma, Curiosity gibi robotik gezginlere Mars'ta neye bakacaklarını öğretmeye yardım eder.",
+    "description_en": "Scientists use field and lab research to learn how signs of life (biosignatures) are preserved over time, helping robotic explorers like Curiosity know what to look for on Mars."
+  },
+  {
+    "id": "earth_aden_crater",
+    "name": "Aden Krateri (Yeni Meksika)",
+    "name_en": "Aden Crater (New Mexico)",
+    "body": "Earth",
+    "country_or_region": "Yeni Meksika, ABD",
+    "country_or_region_en": "New Mexico, USA",
+    "lat": 32.01,
+    "lng": -106.93,
+    "source_url": "https://en.wikipedia.org/wiki/Aden_Crater",
+    "tags": ["volcanic", "lava_tube"],
+    "metrics": {
+      "avg_temp_c": 17.0,
+      "slope_deg": 7.0,
+      "humidity_pct": 30.0,
+      "regolith_similarity": 60,
+      "solar_exposure_pct": 90.0
+    },
+    "mineral_type": "Bazaltik Lav / Kalkan Volkan Kayaçları",
+    "mineral_type_en": "Basaltic Lava / Shield Volcano Rocks",
+    "suitable_missions": [
+      "volcanology",
+      "rover_test"
+    ],
+    "description": "Gezegen volkanologları, Venüs'teki Sif Mons ve Mars'taki kalkan volkanların nasıl oluştuğuna dair hipotezleri Aden Krateri gibi sahalarda sınar.",
+    "description_en": "Planetary volcanologists test hypotheses about how shield volcanoes on Venus and Mars form at sites such as Aden Crater."
+  },
+  {
+    "id": "earth_death_valley",
+    "name": "Ölüm Vadisi (Kaliforniya)",
+    "name_en": "Death Valley (California)",
+    "body": "Earth",
+    "country_or_region": "Kaliforniya, ABD",
+    "country_or_region_en": "California, USA",
+    "lat": 36.24,
+    "lng": -116.83,
+    "source_url": "https://en.wikipedia.org/wiki/Death_Valley",
+    "tags": ["hyper_arid", "mars_catalog"],
+    "metrics": {
+      "avg_temp_c": 25.0,
+      "slope_deg": 8.0,
+      "humidity_pct": 20.0,
+      "regolith_similarity": 55,
+      "solar_exposure_pct": 92.0
+    },
+    "mineral_type": "Kayalık Alüvyon / Tuz Düzlükleri",
+    "mineral_type_en": "Rocky Alluvium / Salt Flats",
+    "suitable_missions": [
+      "rover_test",
+      "hazard_avoidance"
+    ],
+    "description": "Viking 2'nin gördüğü Utopia Planitia manzarası Ölüm Vadisi'ne benzer. NASA'nın Mars 2020 ekibi, Perseverance ve Ingenuity'yi göndermeden önce tehlike kaçınma testlerini burada yaptı.",
+    "description_en": "Utopia Planitia as seen by Viking 2 looks a lot like Death Valley. NASA's Mars 2020 team practiced hazard avoidance here before sending Perseverance and Ingenuity."
+  },
+  {
+    "id": "earth_holuhraun",
+    "name": "Holuhraun Lav Alanı (İzlanda)",
+    "name_en": "Holuhraun Lava Field (Iceland)",
+    "body": "Earth",
+    "country_or_region": "Yüksek Platolar, İzlanda",
+    "country_or_region_en": "Highlands, Iceland",
+    "lat": 64.87,
+    "lng": -16.83,
+    "source_url": "https://en.wikipedia.org/wiki/Holuhraun",
+    "tags": ["volcanic", "lunar_surface"],
+    "metrics": {
+      "avg_temp_c": 0.0,
+      "slope_deg": 3.0,
+      "humidity_pct": 70.0,
+      "regolith_similarity": 75,
+      "solar_exposure_pct": 45.0
+    },
+    "mineral_type": "Taşkın Bazaltı",
+    "mineral_type_en": "Flood Basalt",
+    "suitable_missions": [
+      "volcanology",
+      "rover_test"
+    ],
+    "description": "Bu volkanın Mars'ta jeolojik kuzenleri bulunduğu için NASA bilim ekipleri taşkın bazaltlarını incelemek üzere buraya gitmiştir.",
+    "description_en": "This volcano has geologic cousins on Mars, which is why NASA science teams traveled here to study flood basalts."
+  },
+  {
+    "id": "earth_sunset_crater",
+    "name": "Sunset Krateri (Arizona)",
+    "name_en": "Sunset Crater (Arizona)",
+    "body": "Earth",
+    "country_or_region": "Arizona, ABD",
+    "country_or_region_en": "Arizona, USA",
+    "lat": 35.36,
+    "lng": -111.5,
+    "source_url": "https://en.wikipedia.org/wiki/Sunset_Crater",
+    "tags": ["volcanic", "lunar_surface"],
+    "metrics": {
+      "avg_temp_c": 10.0,
+      "slope_deg": 25.0,
+      "humidity_pct": 35.0,
+      "regolith_similarity": 80,
+      "solar_exposure_pct": 85.0
+    },
+    "mineral_type": "Bazaltik Cüruf (Skoria) Konisi",
+    "mineral_type_en": "Basaltic Scoria Cone",
+    "suitable_missions": [
+      "volcanology",
+      "rover_test"
+    ],
+    "description": "Tepe biçimli skoria konileri patlayıcı volkanik faaliyetin işaretidir ve Dünya ile Mars'ın ortak özelliğidir. Mars'taki adsız bir skoria konisiyle karşılaştırılır.",
+    "description_en": "Hill-shaped scoria cones are a sign of explosive volcanic activity that Earth and Mars share. Sunset Crater is compared with an unnamed scoria cone on Mars."
+  },
+  {
+    "id": "earth_university_valley",
+    "name": "University Vadisi (Antarktika)",
+    "name_en": "University Valley (Antarctica)",
+    "body": "Earth",
+    "country_or_region": "McMurdo Kuru Vadileri, Antarktika",
+    "country_or_region_en": "McMurdo Dry Valleys, Antarctica",
+    "lat": -77.87,
+    "lng": 160.73,
+    "source_url": "https://en.wikipedia.org/wiki/University_Valley",
+    "tags": ["cold_polar", "permafrost"],
+    "metrics": {
+      "avg_temp_c": -25.0,
+      "slope_deg": 12.0,
+      "humidity_pct": 40.0,
+      "regolith_similarity": 60,
+      "solar_exposure_pct": 55.0
+    },
+    "mineral_type": "Buz Çimentolu Zemin",
+    "mineral_type_en": "Ice-cemented Ground",
+    "suitable_missions": [
+      "drilling_test",
+      "isru_mining",
+      "astrobiology"
+    ],
+    "description": "Mars'ın Utopia Planitia ve kutup bölgelerindekine benzer yüzey altı buz çimentolu zemine sahiptir. VIPER ve IceBreaker sınıfı yüzey altı sondaj ekipmanlarını denemek için kullanılmıştır.",
+    "description_en": "Contains subsurface ice-cemented ground similar to Utopia Planitia and polar areas of Mars. Used to test VIPER and IceBreaker-class subsurface drilling equipment."
+  },
+  {
+    "id": "earth_rio_tinto",
+    "name": "Rio Tinto (İspanya)",
+    "name_en": "Rio Tinto (Spain)",
+    "body": "Earth",
+    "country_or_region": "Huelva, İspanya",
+    "country_or_region_en": "Huelva, Spain",
+    "lat": 37.72,
+    "lng": -6.55,
+    "source_url": "https://en.wikipedia.org/wiki/R%C3%ADo_Tinto_%28river%29",
+    "tags": ["mars_catalog", "astrobiology"],
+    "metrics": {
+      "avg_temp_c": 18.0,
+      "slope_deg": 5.0,
+      "humidity_pct": 55.0,
+      "regolith_similarity": 45,
+      "solar_exposure_pct": 80.0
+    },
+    "mineral_type": "Demir Oksit / Sülfat (Asit Maden Drenajı)",
+    "mineral_type_en": "Iron Oxide / Sulfate (Acid Mine Drainage)",
+    "suitable_missions": [
+      "astrobiology",
+      "sample_analysis"
+    ],
+    "description": "Kırmızımsı rengi olan aşırı asidik ve demir açısından zengin nehir, Mars'taki Meridiani Planum kimyasıyla ve erken Mars'taki asidik-ıslak koşullarla karşılaştırılır.",
+    "description_en": "Acidic, iron-rich river compared with the chemistry of Meridiani Planum and early wet, acidic Mars."
+  },
+  {
+    "id": "earth_svalbard_bockfjord",
+    "name": "Svalbard (Bockfjord Volkanik Kompleksi)",
+    "name_en": "Svalbard (Bockfjord Volcanic Complex)",
+    "body": "Earth",
+    "country_or_region": "Svalbard, Norveç",
+    "country_or_region_en": "Svalbard, Norway",
+    "lat": 79.42,
+    "lng": 13.55,
+    "source_url": "https://en.wikipedia.org/wiki/Bockfjorden",
+    "tags": ["cold_polar", "permafrost"],
+    "metrics": {
+      "avg_temp_c": -6.0,
+      "slope_deg": 12.0,
+      "humidity_pct": 70.0,
+      "regolith_similarity": 60,
+      "solar_exposure_pct": 50.0
+    },
+    "mineral_type": "Karbonat Birikimleri / Bazalt / Permafrost",
+    "mineral_type_en": "Carbonate Deposits / Basalt / Permafrost",
+    "suitable_missions": [
+      "astrobiology",
+      "rover_test",
+      "eva_suit"
+    ],
+    "description": "Bockfjord Volkanik Kompleksi, ünlü ALH84001 Mars göktaşındakilerle aynı karbonat birikimlerinin bulunduğu tek yerdir. AMASE ekibi Mars'ta organik iz ve yaşam arayan cihazları burada test etti.",
+    "description_en": "The Bockfjord Volcanic Complex is the only place on Earth with carbonate deposits identical to those in the famous Martian meteorite ALH84001. The AMASE team tested Mars life-detection instruments here."
+  },
+  {
+    "id": "earth_mojave",
+    "name": "Mojave Çölü (Kaliforniya)",
+    "name_en": "Mojave Desert (California)",
+    "body": "Earth",
+    "country_or_region": "Kaliforniya, ABD",
+    "country_or_region_en": "California, USA",
+    "lat": 35.0,
+    "lng": -116.5,
+    "source_url": "https://en.wikipedia.org/wiki/Mojave_Desert",
+    "tags": ["hyper_arid"],
+    "metrics": {
+      "avg_temp_c": 19.0,
+      "slope_deg": 6.0,
+      "humidity_pct": 20.0,
+      "regolith_similarity": 55,
+      "solar_exposure_pct": 90.0
+    },
+    "mineral_type": "Alüvyal Çakıl / Tuz Düzlükleri",
+    "mineral_type_en": "Alluvial Gravel / Salt Flats",
+    "suitable_missions": [
+      "rover_test",
+      "eva_suit",
+      "astrobiology"
+    ],
+    "description": "Sıcaklık uçlarının olduğu bir çöl olarak Mars gibi dünya dışı ortamlar için iyi bir analogdur. Yaşam tespiti için yeni nesil görüntüleme spektrometreleri ve numune çıkarma cihazları burada denenir.",
+    "description_en": "A desert of temperature extremes, considered a good analog for extraterrestrial environments like Mars. Next-generation imaging spectrometers and sample extraction devices for life detection are tested here."
+  }
+]
